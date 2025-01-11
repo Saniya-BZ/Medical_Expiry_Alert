@@ -31,18 +31,19 @@ Endpoint URL: /mcq/
   },
   "dominant_style": "Application-based"
 }
-scores: A dictionary containing percentage scores for each learning style.
-dominant_style: The learning style with the highest score.
+### scores: A dictionary containing percentage scores for each learning style.
+### dominant_style: The learning style with the highest score.
 
 ### 2. Written Response Learning Style Analysis
 
 Endpoint URL: /written/
-Input Format (JSON):
+
+### Input Format (JSON):
 {
   "response": "I enjoy solving puzzles and breaking problems into smaller parts to understand them."
 }
 
-Output Format (JSON):
+### Output Format (JSON):
 {
   "scores": {
     "Visual Learner": 10.5,
@@ -53,8 +54,8 @@ Output Format (JSON):
   },
   "dominant_style": "Analytical Learner"
 }
-scores: A dictionary containing similarity scores for each learning style.
-dominant_style: The learning style with the highest score.
+### scores: A dictionary containing similarity scores for each learning style.
+### dominant_style: The learning style with the highest score.
 
 Start the server using:
 uvicorn main:app --reload
