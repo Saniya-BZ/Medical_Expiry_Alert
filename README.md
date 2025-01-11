@@ -4,7 +4,7 @@
 
 ### 1. MCQ-Based Learning Style Assessment
 Endpoint URL: /mcq/
-Input Format (JSON):
+### Input Format (JSON):
 {
   "responses": [
     "Strongly Agree",
@@ -20,7 +20,7 @@ Input Format (JSON):
   ]
 }
 
-Output Format (JSON):
+### Output Format (JSON):
 {
   "scores": {
     "Visual": 25.0,
